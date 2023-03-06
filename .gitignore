@@ -1,0 +1,18 @@
+
+# Ignore all .NET Core binaries and NuGet packages
+bin/
+obj/
+*.nupkg
+
+# Ignore .NET Core user secrets
+*.usersecrets
+
+# Ignore NuGet package cache
+.nuget/
+
+# Ignore ASP.NET Core local app settings
+appsettings.Development.json
+appsettings.json
+
+# Ignore ASP.NET Core log files
+*.log
